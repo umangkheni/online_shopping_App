@@ -1,0 +1,161 @@
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 50px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+.nev{
+    background-color: aquamarine;
+    height: 5rem;
+    width: 100%;
+}
+.logodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 80%;
+
+
+}
+.nev-menu{
+    align-items: center;
+    margin-right: 5%;
+}
+.menu{
+    gap: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.mode-btn{
+    width: 2.8rem;
+    margin-left: 1rem !important;
+}
+.menu a button{
+    border: none;
+    border-radius: 50px;
+    padding: 4px 15px;
+    background-color: lightseagreen;
+    width: 100%;
+}
+.SearchI{
+    width: 50%;
+}
+.login-box img{
+    position: absolute;
+    margin-top: 10% ;
+    right: 0%;
+}
+/* .menu a{
+    color: black;
+    z-index: 10;
+} */
+
+/* .menu a:hover,.menu a:active{
+    color: white;
+    cursor: pointer;
+} */
+.menu button:hover{
+    color: white;
+    background-color: darkcyan;
+    text-transform: scale(1.2);
+}
+.menu-hover{
+    color: black;
+    text-decoration: none;
+}
+.menu-hover:hover{
+    color: lightskyblue;
+    transform: scale(1.2);
+}
+.Slaider{
+    width: 100vw;
+    height: calc(100vh - 5rem);
+}
+
+
+
+
+/* admin */
+
+.product a{
+    margin-top: 2rem;
+    width: 15rem;
+    /* height: 10%; */
+
+}
+
+.by-btn button{
+    width: 60%;
+    margin: 5% auto;
+}
+.card-body .price{
+    color: blue;
+} 
+.p-list{
+    margin: 5%;
+}
+.card-body .p-titel{
+   color: black;
+    text-decoration: none;
+
+}
+.card{
+    height: 100%;
+}
+a{
+    text-decoration: none;
+}
+.c-img{
+    width: 90%;
+    margin: 3% auto;
+}
+.card-body{
+    border-top: 2px solid gray;
+}
+.card{
+    border-radius: 20px;
+    /* height: 300px; */
+}
+
+
+
+/* login */
+
+
+.login-box{
+    width: 70vh;
+    background-color: aquamarine;
+    border-radius: 30px;
+}
+.login-box input,button {
+    width: 80%;
+    margin: 2.5%;
+    padding: 5px 20px;
+}
+
+.r-box,.l-box{
+    width: 100vw;
+    height: calc(100vh - 5rem);
+}

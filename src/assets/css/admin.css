@@ -1,0 +1,111 @@
+/* Header */
+
+.A-Header{
+    background-color: lightgray;
+    width: 25vw;
+    height: 100vh;
+
+}
+
+.ad-main-box{
+    width: calc(100vw - 25vw);
+    height: calc(100vh - 5rem);
+    margin-left: 25vw;
+}
+.ad-main-box div{
+    width: 50vw;
+    /* height: 50vh; */
+    background-color: rgb(115, 124, 134);
+border-radius: 50px;
+}
+.ad-main-box h1{
+    margin: 7.5% auto;
+}
+.ad-main-box div input,.ad-main-box div textarea{
+    width: 80%;
+    margin: 2% auto;
+    padding: 5px 20px;
+
+}
+
+/* add product form */
+.ad-main-box div input:first-child{
+    margin-top: 8% ;
+}
+.ad-main-box div button{
+margin: 4% auto;
+padding: 5px 20px;
+border: none;
+outline: none;
+border-radius: 50px;
+}
+
+.ad-main-box div button:hover{
+background-color: gray;
+color: azure;
+}
+.add-h1{
+    margin: auto ;
+}
+
+
+/* all produvt list */
+
+.list-img{
+    width: 50%;
+}
+td:first-child{
+    margin: 10rem;
+}
+.ap-table{
+    width: 90% !important;
+    background-color: transparent !important;
+}
+th:first-child{
+    width: 10%;
+}
+th:nth-child(2){
+    width: 20%;
+}
+th:nth-child(3){
+    width: 20%;
+}
+
+a{
+    cursor: pointer;
+}
+.A-Header a{
+    text-decoration: none;
+    color: black;
+}
+.A-Header a:hover{
+    text-decoration: none;
+    color: rgb(112, 125, 123);
+    transform: scale(1.2);
+}
+.A-Header a:active{
+    color: rgb(112, 125, 123);
+    transform: scale(1.2);
+}
+
+.logout{
+    position: absolute;
+    bottom: 5%;
+}
+ 
+/* user */
+.user td:nth-child(1){
+    width: 10%;
+}
+.user td:nth-child(2){
+    width: 25%;
+}
+.user td:nth-child(3){
+    width: 30%;
+}
+.user td:nth-child(4){
+    width: 20%;
+}
+.user td:nth-child(5){
+    width: 15%;
+}
